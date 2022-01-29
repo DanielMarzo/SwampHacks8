@@ -1,17 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./NavigationBar.css";
 
-const NavigationBar = ( ) => {
-    return (
-      <header className="NavigationBar">
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Profile</li>
-          </ul>
-        </nav>
-      </header>
-    );
-  };
+const NavigationBar = () => {
+  return (
+    <header className="NavigationBar">
+      <nav>
+        <ul>
 
-  export default NavigationBar;
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          
+          <Link to="/profile">
+            <li>Profile</li>
+          </Link>
+
+        </ul>
+      </nav>
+    </header>
+  );
+};
+
+export default NavigationBar;
