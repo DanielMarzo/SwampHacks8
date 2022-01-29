@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background: rgb(242,112,156);
+    background: linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%); */
+}
+
+.NavigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+};
+
+a, li {
+    font-family: "Roboto",  sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    border-radius: 100px;
+    border: none;
+    padding: 14px 28px;
+    background:rgb(255, 77, 190);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover{
+    color: blue;
+}
+
+button:hover{
+    background:rgba(242, 46, 170, 0.8);
+}
