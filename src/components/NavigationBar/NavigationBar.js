@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 import logo from "./logo.png"
 import "./NavigationBar.css";
 
+const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=6da9565436194a5ca8abce98146de59b&response_type=code&redirect_uri=http://localhost:3000&scope=streaming"
 
 const NavigationBar = () => {
+  const handleClick = () =>{
+    window.open(AUTH_URL);
+  }
   return (
     <header className="NavigationBar">
       <img class="logo" src={logo} alt="Logo" />
@@ -23,7 +27,7 @@ const NavigationBar = () => {
         </nav>
 
         <Link to="/signIn">
-          <button> Sign In</button>
+          <button onClick ={handleClick}> Sign In</button>
         </Link>
 
     </header>
