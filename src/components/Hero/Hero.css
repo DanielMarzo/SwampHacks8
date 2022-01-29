@@ -1,6 +1,8 @@
 .Hero {
+    font-family: 'Roboto', sans-serif;
     display: block;
-    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+    background: rgb(242,112,156);
+    background: linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%);
     height: 100%;
     width: 100%;
     padding: 20% 20%;
