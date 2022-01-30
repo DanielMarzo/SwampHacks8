@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300&display=swap');
 
 .Hero {
+    padding: 10px 10px;
     font-family: "Roboto", sans-serif;
     display: block;
     max-height: 10px;

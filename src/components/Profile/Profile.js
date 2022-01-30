@@ -51,7 +51,8 @@ const getReturnedParamsFromSpotifyAuth = (hash) => {
     return (
         <div className="container">
           <h1>Welcome to Swampify!</h1>
-          <h2> Log in and get started!</h2>
+          <h2> Are you a music lover?</h2>
+          <h3> Get your Top Songs and Artists here!</h3>
           <div className="loginButton">
           <button onClick={handleLogin}>Login to Spotify</button></div>
           {/* <View style = {{ flex: 2, flexDirection: 'row'}}> */}

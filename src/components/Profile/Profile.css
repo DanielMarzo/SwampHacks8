@@ -1,6 +1,7 @@
 .container{
     padding: 10% 10%;
     min-width: 100%;
+    min-height: 100%;
     background: rgb(255, 77, 190);
     background:linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%); 
 }
@@ -39,7 +40,6 @@ button{
     background:rgb(196, 77, 255);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     align-items: 'center';
-    transition: 
 }
 
 

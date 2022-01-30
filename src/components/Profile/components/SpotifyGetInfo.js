@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const TRACKS_ENDPOINT = "https://api.spotify.com/v1/me/top/tracks?limit=6&time_range=short_term";
+const TRACKS_ENDPOINT = "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=short_term";
 
 
 const SpotifyGetInfo = () => {
