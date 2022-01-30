@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300&display=swap');
+
 .Hero {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     display: block;
     background: rgb(242,112,156);
     background: linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%);
@@ -7,4 +9,14 @@
     width: 100%;
     padding: 20% 20%;
     color: white;
+}
+
+.NavigationBar{
+    font-family: "Montserrat", sans-serif;
+    background: rgb(242,112,156);
+    background: linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%);
+}
+
+a {
+    color:white;
 }

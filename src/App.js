@@ -9,6 +9,7 @@ import {
 import "./App.css";
 import NavigationBar from './components/NavigationBar';
 import Hero from "./components/Hero";
+import styled from "styled-components";
 
 
 const App = () => {
@@ -17,11 +18,17 @@ const App = () => {
       <NavigationBar />
 
       <Switch>
-        <Route path="/profile">
+        <Route path="/profile" activeStyle>
           <h1>Welcome!</h1>
         </Route>
 
-        <Route path="/">
+        <Route path="/signIn" activeStyle>
+
+ 
+        <Hero />
+        </Route>
+
+        <Route path="/" activeStyle>
           <div className="App">
             {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <Hero />
