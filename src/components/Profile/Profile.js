@@ -55,11 +55,8 @@ const getReturnedParamsFromSpotifyAuth = (hash) => {
           <h3> Get your Top Songs and Artists here!</h3>
           <div className="loginButton">
           <button onClick={handleLogin}>Login to Spotify</button></div>
-          {/* <View style = {{ flex: 2, flexDirection: 'row'}}> */}
           <div className="spotifyGetInfoButton"> <SpotifyGetInfo /></div>
           <div className="spotifyGetArtistInfoButton"> <SpotifyGetArtistInfo /> </div>
-          {/* </View> */}
-          {/* <div className="spotifyGetRelatedArtistInfoButtons"> <SpotifyGetRelatedArtistInfo/></div> */}
         </div>
       );
 };

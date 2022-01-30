@@ -41,11 +41,11 @@ const App = () => {
         {/* <Hero /> */}
         </Route>
 
-        {/* <Hero /> */}
+        <Hero />
         <Route path="/" activeStyle>
           <div className="App">
             {/* <img src={logo} className="App-logo" alt="logo" /> */}
-            {/* <Hero /> */}
+            <Hero />
             </div>
         </Route>
         
