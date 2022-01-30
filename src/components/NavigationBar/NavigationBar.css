@@ -1,17 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300&display=swap');
+
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* background: rgb(242,112,156);
-    background: linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%); */
+    color: white;
 }
 
 .NavigationBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
-};
+    padding: 10px 10%;
+}
 
 a, li {
     font-family: "Roboto",  sans-serif;
@@ -19,16 +17,19 @@ a, li {
     text-decoration: none;
 }
 button{
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    justify-content: center;
     cursor: pointer;
     color:white;
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    border-radius: 100px;
-    border: none;
+    border: rgba(0, 0, 0, 1) 5px;
     padding: 14px 28px;
-    background:rgb(255, 77, 190);
+    background:rgb(196, 77, 255);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    transition: all 0.3s ease 0s;
+    /* justify-content: space-between;
+    align-items: center; */
 }
 
 .logo{
@@ -50,9 +51,16 @@ button{
 }
 
 .nav li a:hover{
-    color: blue;
+    color: grey;
 }
 
 button:hover{
     background:rgba(242, 46, 170, 0.8);
 }
+
+.spotifyBG {
+    min-width: 100%;
+    background: rgb(255, 77, 190);
+    background:linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%);
+}
+
